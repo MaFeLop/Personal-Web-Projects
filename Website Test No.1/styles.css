@@ -1,0 +1,32 @@
+body {
+ background-color: lightsteelblue;
+}
+
+p {
+    border: 4px dotted blue;
+    background: lightblue;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.container {
+    flex: 0 1 auto;
+}
+
+.github {
+    flex: 1;
+    border: 4px solid yellowgreen;
+    background: greenyellow;
+}
+
+.apps {
+    flex: 1;
+    border: 4px solid coral;
+    background: lightcoral
+}
+
+.knowledge {
+    flex: 1;
+    border: 4px solid turquoise;
+    background: lightblue
+}
